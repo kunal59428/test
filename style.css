@@ -48,7 +48,7 @@
   }
 
   .navbar a {
-    color: var(--secondary);
+    color: #000;
     text-decoration: none;
     font-size: 1rem;
     padding: 5px 10px;
@@ -95,6 +95,21 @@
     border-radius: 10px;
     font-weight: 700;
     font-size: 12px;
+}
+
+.quotes-btn {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  width: 40%;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.right-controls {
+  width: 100%;
+  text-align: center;
 }
 
   /* Hero Carousel */
@@ -151,6 +166,7 @@
     width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-bottom: 20px;
   }
   
   .experience-badge {
@@ -506,12 +522,12 @@ background-color: #FFF;
   background: #f9f9f9;
     position: relative;
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(./Image/link-bg.jpg);
-  padding: 20px;
+  padding: 20px 100px;
 }
 
 .map-container {
-  flex: 1 1 100%;
-  min-height: 400px;
+  flex: 1 1 50%;
+  min-height: 450px;
 }
 
 .map-container iframe {
@@ -521,14 +537,14 @@ background-color: #FFF;
 }
 
 .form-container {
-  flex: 1 1 100%;
+  flex: 1 1 50%;
   padding: 20px 30px;
   background: #fff;
   justify-items: center;
 
 }
 .form-container form {
-  width: 30%;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -733,6 +749,9 @@ top: 60%;
 }
 .map-container iframe {
   height: 250px;
+}
+.contact-container{
+  padding: 20px;
 }
 
 
