@@ -46,6 +46,9 @@
     list-style: none;
     gap: 20px;
   }
+  .navbar ul li{
+    width: 100px;
+  }
 
   .navbar a {
     color: #000;
