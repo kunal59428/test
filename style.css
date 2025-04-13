@@ -175,10 +175,10 @@ a {
 
 .experience-badge {
   position: absolute;
-  bottom: 20px;
+  bottom: -30px;
   left: 20px;
   background: white;
-  padding: 20px 15px;
+  padding: 20px 40px;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -823,6 +823,19 @@ footer {
   .header {
     padding: 10px 1em 0em 1em;
   }
+  .experience-badge span {
+    font-size: 10px;
+}
+.experience-badge strong {
+  font-size: 20px;
+}
+
+.experience-badge {
+  bottom: -10px;
+  left: 15px;
+  padding: 10px 25px;
+}
+
   .logo img {
     width: 70px;
   }
