@@ -553,7 +553,7 @@ a {
   background: #fff;
   justify-items: center;
 }
-.form-container form {
+.form-container .popup {
   width: 100%;
   margin-top: 20px;
 }

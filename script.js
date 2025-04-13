@@ -96,3 +96,30 @@ $(document).ready(function(){
     }
   });
 });
+
+
+// PopUp Form
+
+function handleSubmit() {
+  const name = document.getElementById("name").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const email = document.getElementById("email").value.trim();
+
+  if (!name || !phone || !email) {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  // Auto-download PDF
+  const pdfUrl = "files/shakti-servo-transformers.pdf"; // Make sure this file exists
+  const link = document.createElement("a");
+  link.href = pdfUrl;
+  link.download = "Query_Form.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+function closePopup() {
+  document.getElementById("popupForm").style.display = "none";
+}

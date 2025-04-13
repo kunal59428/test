@@ -348,7 +348,7 @@
             <input type="email" placeholder="Email" required />
           </div>
           <div class="form-group">
-            <button type="submit">Get Query</button>
+            <button onclick="handleSubmit()">Get Query</button>
           </div>
         </form>
       </div>
@@ -401,23 +401,24 @@
   </div>
 
   <!-- PopupForm -->
-      <div id="popupForm" class="popup">
-        <div class="popup-content">
-          <span class="close" onclick="closePopup()">&times;</span>
-          <h2>Get in Touch</h2>
-          <input type="text" placeholder="Name" required />
-          <input type="tel" placeholder="Phone Number" required />
-          <input type="email" placeholder="Email" required />
-          <button type="submit">Get Query</button>
-      
-          <!-- WhatsApp Contact Button -->
-          <div class="whatsapp-contact">
-            <a href="https://wa.me/9289424267" target="_blank" class="whatsapp-link">
-              <i class="fab fa-whatsapp"></i> Contact on WhatsApp
-            </a>
-          </div>
-        </div>
+  <div id="popupForm" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2>Get in Touch</h2>
+  
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <input type="email" id="email" placeholder="Email" required />
+  
+      <button onclick="handleSubmit()">Get Query</button>
+  
+      <div class="whatsapp-contact">
+        <a href="https://wa.me/9289424267" target="_blank" class="whatsapp-link">
+          <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+        </a>
       </div>
+    </div>
+  </div>
       
       <!-- Button to open the popup -->
       <!-- <button onclick="openPopup()">Open Form</button> -->
