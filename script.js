@@ -43,10 +43,10 @@ var swiper = new Swiper(".slide-content", {
     clickable: true,
     dynamicBullets: true,
   },
-//   autoplay: {
-//   delay: 1000,          // Time between transitions (in ms)
-//   disableOnInteraction: false, // Keeps autoplay even after user interaction
-// },
+  autoplay: {
+  delay: 1000,          // Time between transitions (in ms)
+  disableOnInteraction: false, // Keeps autoplay even after user interaction
+},
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
