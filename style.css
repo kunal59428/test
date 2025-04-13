@@ -784,6 +784,9 @@ footer {
     padding: 10px 1em 0em 1em;
   }
   .logo img {
+    width: 70px;
+  }
+  .logo-footer img{
     width: 90px;
   }
 
