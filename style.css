@@ -80,7 +80,7 @@
     border-radius: 3px;
   }
   .logo img {
-    width: 100px;
+    width: 80px;
   }
   .navigation {
     display: flex
@@ -655,7 +655,6 @@ background-color: #FFF;
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
   background: #000;
   display: flex;
   justify-content: space-around;
@@ -690,7 +689,7 @@ background-color: #FFF;
   color: #fff;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .bottom-bar {
     display: none;
   }
@@ -773,6 +772,16 @@ background-color: #FFF;
 /* Responsive */
 
 @media (max-width: 768px) { 
+
+  .header {
+    
+    padding: 10px 1em 0em 1em;
+    
+  }
+  .logo img {
+    width: 70px;
+  }
+
   .banner-item img {
     height: 220px;
 }
