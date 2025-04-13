@@ -94,6 +94,7 @@ a {
   border-radius: 10px;
   font-weight: 700;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .quotes-btn {
@@ -105,6 +106,7 @@ a {
   border-radius: 10px;
   font-weight: 700;
   font-size: 12px;
+  cursor: pointer;
 }
 .right-controls {
   width: 100%;
@@ -776,6 +778,7 @@ footer {
   color: white;
   border: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .close {
